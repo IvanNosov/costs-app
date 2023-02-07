@@ -1,8 +1,8 @@
 import CostItem from "./CostItem";
-import Card from "./Card";
+import Card from "../UI/Card";
 import "./Costs.css";
 
-function Costs(props) {
+const Costs = (props) => {
   return (
     <Card className="costs">
       <CostItem
@@ -20,7 +20,7 @@ function Costs(props) {
         description={props.costs[2].description}
         amount={props.costs[2].amount}
       />
-    </Card >
+    </Card>
   );
 }
 
