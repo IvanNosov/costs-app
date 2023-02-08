@@ -2,7 +2,6 @@ import "./CostItem.css";
 import CostDate from "./CostDate";
 import Card from "../UI/Card";
 
-
 const CostItem = (props) => {
   return (
     <Card className="cost-item">
@@ -13,6 +12,6 @@ const CostItem = (props) => {
       </div>
     </Card>
   );
-}
+};
 
 export default CostItem;
